@@ -1,0 +1,38 @@
+{
+  "name": "telegram-socialmedia-downloader",
+  "version": "1.0.0",
+  "description": "Downloading videos/pictures/stories from social media such as Instagram/Twitter/Youtube...ETC",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wacns/telegraf-nodejs"
+  },
+  "keywords": [
+    "social-media",
+    "download",
+    "tiktok",
+    "instagram",
+    "youtube",
+    "telegram",
+    "bot"
+  ],
+  "author": "wacns",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wacns/telegraf-nodejs/issues"
+  },
+  "homepage": "https://github.com/wacns/telegraf-nodejs#readme",
+  "devDependencies": {
+    "ava": "latest",
+    "c8": "latest",
+    "eslint": "^8.15.0",
+    "eslint-plugin-mocha": "^10.0.4",
+    "node-telegram-bot-api": "^0.57.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
